@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89980975ea8c527df2e72af616839020",
+    "content-hash": "f64eb623b0b38546fda2d48206e3a59d",
     "packages": [
         {
             "name": "composer/installers",
@@ -910,6 +910,25 @@
                 }
             ],
             "time": "2020-09-14T15:57:31+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-seo-pack",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-seo-pack/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip?timestamp=1608579319"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/",
+            "time": "2020-12-21T19:35:19+00:00"
         }
     ],
     "packages-dev": [
@@ -1285,6 +1304,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "wpackagist-plugin/all-in-one-seo-pack": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
