@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f64eb623b0b38546fda2d48206e3a59d",
+    "content-hash": "513a7850fe73c9bd11227a0d07c16626",
     "packages": [
         {
             "name": "composer/installers",
@@ -912,6 +912,25 @@
             "time": "2020-09-14T15:57:31+00:00"
         },
         {
+            "name": "wpackagist-plugin/akismet",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.zip?timestamp=1607466693"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/",
+            "time": "2020-12-08T22:31:33+00:00"
+        },
+        {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
             "version": "dev-trunk",
             "source": {
@@ -929,6 +948,63 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/",
             "time": "2020-12-21T19:35:19+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/ewww-image-optimizer",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.zip?timestamp=1605207361"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/",
+            "time": "2020-11-12T18:56:01+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/google-sitemap-generator",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.zip?timestamp=1597200074"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/",
+            "time": "2020-08-12T02:41:14+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/tinymce-advanced",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.zip?timestamp=1607521225"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tinymce-advanced/",
+            "time": "2020-12-09T13:40:25+00:00"
         }
     ],
     "packages-dev": [
@@ -1305,6 +1381,10 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "wpackagist-plugin/all-in-one-seo-pack": 20,
+        "wpackagist-plugin/akismet": 20,
+        "wpackagist-plugin/google-sitemap-generator": 20,
+        "wpackagist-plugin/tinymce-advanced": 20,
+        "wpackagist-plugin/ewww-image-optimizer": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
