@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "513a7850fe73c9bd11227a0d07c16626",
+    "content-hash": "9825b134bd0636dfe7252a2cd8a15312",
     "packages": [
         {
             "name": "composer/installers",
@@ -986,25 +986,6 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/",
             "time": "2020-08-12T02:41:14+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/tinymce-advanced",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.zip?timestamp=1607521225"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/tinymce-advanced/",
-            "time": "2020-12-09T13:40:25+00:00"
         }
     ],
     "packages-dev": [
@@ -1383,7 +1364,6 @@
         "wpackagist-plugin/all-in-one-seo-pack": 20,
         "wpackagist-plugin/akismet": 20,
         "wpackagist-plugin/google-sitemap-generator": 20,
-        "wpackagist-plugin/tinymce-advanced": 20,
         "wpackagist-plugin/ewww-image-optimizer": 20,
         "roave/security-advisories": 20
     },

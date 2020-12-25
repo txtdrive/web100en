@@ -46,7 +46,6 @@
 "wpackagist-plugin/all-in-one-seo-pack":"dev-trunk",
 "wpackagist-plugin/akismet":"dev-trunk",
 "wpackagist-plugin/google-sitemap-generator":"dev-trunk",
-"wpackagist-plugin/tinymce-advanced":"dev-trunk",
 "wpackagist-plugin/ewww-image-optimizer":"dev-trunk"
 },
 "require-dev": {
