@@ -46,7 +46,9 @@
 "wpackagist-plugin/all-in-one-seo-pack":"dev-trunk",
 "wpackagist-plugin/akismet":"dev-trunk",
 "wpackagist-plugin/google-sitemap-generator":"dev-trunk",
-"wpackagist-plugin/ewww-image-optimizer":"dev-trunk"
+"wpackagist-plugin/ewww-image-optimizer":"dev-trunk",
+    "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": "^2.4",
+    "wpackagist-plugin/sendgrid-email-delivery-simplified": "^1.11"
 },
 "require-dev": {
 "squizlabs/php_codesniffer": "^3.5.8",
