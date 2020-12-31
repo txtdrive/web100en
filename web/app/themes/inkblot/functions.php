@@ -80,7 +80,7 @@ function inkblot_wp_head() { ?>
 	
 	<?php if (get_theme_mod('responsive_width', 0) or is_customize_preview()) : ?>
 		
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width">
 		
 	<?php endif; ?>
 	
