@@ -7,7 +7,9 @@
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
-	<head><?php wp_head(); /* @see `inkblot_wp_head()` in `functions.php` */ ?></head>
+	<head><?php wp_head(); /* @see `inkblot_wp_head()` in `functions.php` */ ?>
+		<meta name="viewport" content="width=device-width">
+	</head>
 	<body id="document" <?php body_class(); ?>>
 		<a href="#content"><?php _e('Skip to content', 'inkblot'); ?></a>
 		
