@@ -995,7 +995,8 @@ form.search input {
     .post-details a[href*="?offset="]:before {
       content: '\f02e'; }
 .post-content {
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  line-height: 2em; }
   .post-content img {
     border-radius: .3rem;
     max-width: 100%; }
