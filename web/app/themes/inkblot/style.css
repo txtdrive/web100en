@@ -655,9 +655,8 @@ body > a[href="#content"] {
 .wrapper {
   background: #fff;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin:0 auto;
   min-width: 850px;
-  display: table;
   position: relative; }
   .wrapper a {
     color: #767676; }
