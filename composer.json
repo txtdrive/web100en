@@ -47,6 +47,7 @@
 "wpackagist-plugin/akismet":"dev-trunk",
 "wpackagist-plugin/google-sitemap-generator":"dev-trunk",
 "wpackagist-plugin/ewww-image-optimizer":"dev-trunk",
+"wpackagist-plugin/jetpack":"dev-trunk",
     "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn": "^2.4",
     "wpackagist-plugin/sendgrid-email-delivery-simplified": "^1.11"
 },
