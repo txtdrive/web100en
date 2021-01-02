@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58d05cf72bd8f95ac100393a597ebd26",
+    "content-hash": "eb6d7d5faf549d316effcbc9244b6fed",
     "packages": [
         {
             "name": "composer/installers",
@@ -1006,6 +1006,25 @@
             "time": "2020-08-12T02:41:14+00:00"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.zip?timestamp=1607609680"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/",
+            "time": "2020-12-10T14:14:40+00:00"
+        },
+        {
             "name": "wpackagist-plugin/sendgrid-email-delivery-simplified",
             "version": "1.11.8",
             "source": {
@@ -1031,12 +1050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "49da07b20a780d3fca9fe12e1db27975a2910c18"
+                "reference": "a2c04f857299a7119e96448249a9dd5954e099c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/49da07b20a780d3fca9fe12e1db27975a2910c18",
-                "reference": "49da07b20a780d3fca9fe12e1db27975a2910c18",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/a2c04f857299a7119e96448249a9dd5954e099c1",
+                "reference": "a2c04f857299a7119e96448249a9dd5954e099c1",
                 "shasum": ""
             },
             "conflict": {
@@ -1170,7 +1189,7 @@
                 "phpmussel/phpmussel": ">=1,<1.6",
                 "phpmyadmin/phpmyadmin": "<4.9.6|>=5,<5.0.3",
                 "phpoffice/phpexcel": "<1.8.2",
-                "phpoffice/phpspreadsheet": "<1.8",
+                "phpoffice/phpspreadsheet": "<1.16",
                 "phpunit/phpunit": ">=4.8.19,<4.8.28|>=5.0.10,<5.6.3",
                 "phpwhois/phpwhois": "<=4.2.5",
                 "phpxmlrpc/extras": "<0.6.1",
@@ -1340,7 +1359,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-21T18:11:20+00:00"
+            "time": "2020-12-31T19:24:22+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -1401,6 +1420,7 @@
         "wpackagist-plugin/akismet": 20,
         "wpackagist-plugin/google-sitemap-generator": 20,
         "wpackagist-plugin/ewww-image-optimizer": 20,
+        "wpackagist-plugin/jetpack": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
