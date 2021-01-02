@@ -940,14 +940,14 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip?timestamp=1608579319"
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-seo-pack.zip?timestamp=1609075508"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/",
-            "time": "2020-12-21T19:35:19+00:00"
+            "time": "2020-12-27T13:25:08+00:00"
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
