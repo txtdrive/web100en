@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5f6b5c207e83b300b72934a8cc0a4ef",
+    "content-hash": "8287a969403a5d63ef6e7ed8f026e6f4",
     "packages": [
         {
             "name": "composer/installers",
@@ -910,6 +910,24 @@
                 }
             ],
             "time": "2020-09-14T15:57:31+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/all-in-one-wp-migration",
+            "version": "7.32",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/all-in-one-wp-migration/",
+                "reference": "tags/7.32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.32.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/all-in-one-wp-migration/"
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
