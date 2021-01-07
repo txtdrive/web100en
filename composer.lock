@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e77c6ddf823fba7f3c98e661449e1d2b",
+    "content-hash": "d5f6b5c207e83b300b72934a8cc0a4ef",
     "packages": [
         {
             "name": "composer/installers",
@@ -913,21 +913,39 @@
         },
         {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
-            "version": "2.4.0",
+            "version": "2.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/",
-                "reference": "tags/2.4.0"
+                "reference": "tags/2.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.4.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn.2.4.1.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cloudinary-image-management-and-manipulation-in-the-cloud-cdn/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "9.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/9.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.9.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         }
     ],
     "packages-dev": [
